@@ -5,7 +5,6 @@ import yaml
 from minine.codec import Decoder
 from minine.modules.generator import OcclusionAwareGenerator
 from minine.modules.keypoint_detector import KPDetector
-
 from minine.resources import get_config_path, get_weights_path
 
 # TODO write a new custom loader

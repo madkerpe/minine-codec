@@ -2,12 +2,8 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
-from minine.modules.util import (
-    AntiAliasInterpolation2d,
-    Hourglass,
-    kp2gaussian,
-    make_coordinate_grid,
-)
+from minine.modules.util import (AntiAliasInterpolation2d, Hourglass,
+                                 kp2gaussian, make_coordinate_grid)
 
 
 class DenseMotionNetwork(nn.Module):

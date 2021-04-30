@@ -2,7 +2,8 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
-from minine.modules.util import AntiAliasInterpolation2d, Hourglass, make_coordinate_grid
+from minine.modules.util import (AntiAliasInterpolation2d, Hourglass,
+                                 make_coordinate_grid)
 
 
 class KPDetector(nn.Module):

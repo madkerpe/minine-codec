@@ -1,6 +1,5 @@
 import torch
 import torch.nn.functional as F
-
 # from sync_batchnorm import SynchronizedBatchNorm2d as BatchNorm2d #TODO this now assumes 0 or 1 GPU
 from torch import nn
 

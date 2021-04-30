@@ -7,7 +7,6 @@ from minine.codec import Encoder
 from minine.frame_sequence import EncodedFrame
 from minine.latent_representation import encID, encPE
 from minine.modules.keypoint_detector import KPDetector
-
 from minine.resources import get_config_path, get_weights_path
 
 # from sync_batchnorm import DataParallelWithCallback #TODO this now assumes 0 or 1 GPU

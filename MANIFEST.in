@@ -1,0 +1,2 @@
+include minine/modules/config/*.yaml
+include minine/modules/weights/*.tar

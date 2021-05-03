@@ -40,7 +40,7 @@ class MinineDecoder(Decoder):
             identity_frame = identity_frame.to(self.dev)
 
             # TODO right now we also store the keypoints from the source frame, we don't need to do this
-            self.last_identity_frame = identity_frame / 256  # TODO better normalization
+            self.last_identity_frame = identity_frame / 255  # TODO better normalization
             self.last_identity_frame_kp = Frame.encID.keypoints
             # self.last_identity_frame_kp = self.kp_detector(self.last_identity_frame)
 

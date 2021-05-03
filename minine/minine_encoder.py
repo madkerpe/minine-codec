@@ -54,7 +54,7 @@ class MinineEncoder(Encoder):
                 # TODO right now we also store the keypoints from the source frame, we don't need to do this
                 self.last_identity_frame = identity_frame
                 self.last_identity_frame_kp = self.kp_detector(
-                    self.last_identity_frame / 256
+                    self.last_identity_frame / 255
                 )  # TODO better normailsation
 
                 self.identity_refresh_count = 0
@@ -67,7 +67,7 @@ class MinineEncoder(Encoder):
 
             else:
                 driving_frame = torch.tensor(
-                    np.array(frame).astype(np.float32) / 256
+                    np.array(frame).astype(np.float32) / 255
                 )  # TODO better normalising
                 driving_frame = driving_frame.unsqueeze(0).permute(0, 3, 1, 2)
                 driving_frame = driving_frame.to(self.dev)

@@ -10,7 +10,7 @@ The the minine package can be installed using:
 pip install .
 ```
 
-The required weights an be obtained from the following link:
+The required weights can be obtained from the following link:
 https://ugentbe-my.sharepoint.com/:u:/g/personal/marijn_dekerpel_ugent_be/EaprX1o7LzZKr4q5fktkYrcBVVyPfuaahca-0Og-si7EfA?e=VGRzfq
 
 

@@ -1,6 +1,6 @@
 # minine-codec
 
-This the Minine codec a play-on-words based on the Nvidia Maxine SDK.
+The Minine codec is a play-on-words based on the Nvidia Maxine SDK.
 
 Installation assumes Windows 10, cuda 10.2, python 3.7.
 Setting up a virtual environment is highly recommended.
